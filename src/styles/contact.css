@@ -1,0 +1,50 @@
+.contact-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.contact-title {
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .contact-title {
+        font-size: 1.75rem;
+    }
+}
+
+.card-section {
+    display: flex;
+    gap: 2rem;
+}
+
+.contact-card {
+    display: flex;
+    width: 60px;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #ffffff0d;
+    border-radius: 0.5rem;
+}
+
+.contact-card svg {
+    margin-bottom: 0.5rem;
+    transition: 0.3s;
+}
+
+.contact-card:hover svg {
+    color: var(--accent-color);
+}

@@ -1,0 +1,85 @@
+.skills-section {
+    margin-bottom: 2rem;
+}
+
+.skills-title {
+    position: relative;
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .skills-title {
+        margin-left: 22%;
+    } 
+}
+
+.skills-block {
+    position: relative;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    height: 80px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 80%,
+        rgba(0,0,0,0)
+    );
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -100px;
+    }
+}
+
+.skills-tiles {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: max(calc(200px*9), 100%);
+    width: 200px;
+    animation: scrollLeft 25s linear infinite;
+}
+
+.skills-tiles svg{
+    margin-right: 10px;
+}
+
+.item-1 {
+    animation-delay: calc(25s / 9 * (9 - 1) * -1);
+}
+
+.item-2 {
+    animation-delay: calc(25s / 9 * (9 - 2) * -1);
+}
+
+.item-3 {
+    animation-delay: calc(25s / 9 * (9 - 3) * -1);
+}
+
+.item-4 {
+    animation-delay: calc(25s / 9 * (9 - 4) * -1);
+}
+
+.item-5 {
+    animation-delay: calc(25s / 9 * (9 - 5) * -1);
+}
+
+.item-6 {
+    animation-delay: calc(25s / 9 * (9 - 6) * -1);
+}
+
+.item-7 {
+    animation-delay: calc(25s / 9 * (9 - 7) * -1);
+}
+
+.item-8 {
+    animation-delay: calc(25s / 9 * (9 - 8) * -1);
+}
+
+.item-9 {
+    animation-delay: calc(25s / 9 * (9 - 9) * -1);
+}
