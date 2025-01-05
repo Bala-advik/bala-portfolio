@@ -24,7 +24,7 @@ const About: React.FC = () => {
             className="portfolio-image-desktop"
             height={500}
             src="./myself.png"
-            alt="image"
+            alt="portfolio-desk-image"
           />
 
           <div className="rounded-wrapper">
@@ -33,7 +33,7 @@ const About: React.FC = () => {
               className="portfolio-image-mobile"
               height={500}
               src="./myself-12.png"
-              alt="image"
+              alt="portfolio-mobile-image"
             />
           </div>
         </div>

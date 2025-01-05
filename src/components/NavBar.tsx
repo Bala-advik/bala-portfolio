@@ -15,7 +15,7 @@ function Header() {
         className="open-button"
         onClick={() => setIsOpen(true)}
         aria-label="open sidebar"
-        aria-expanded={`${isOpen ? "true" : "false"}`}
+        aria-expanded={isOpen}
         aria-controls="portfolio-navbar"
       >
         <svg
@@ -51,7 +51,7 @@ function Header() {
             </button>
           </li>
           <li>
-            <a className="portfolio-nav-name">B</a>
+            <a href="#" className="portfolio-nav-name">B</a>
           </li>
           <li>
             <a href="#about" onClick={handleSideBarClose}>

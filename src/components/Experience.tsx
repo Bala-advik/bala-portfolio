@@ -9,7 +9,7 @@ const Experience = () => {
             <div className="experience-timeline">
 
                 <div className="experience-timeline-container left-container">
-                    <img src="/images/tcs.png" />
+                    <img src="/images/tcs.png" alt="tcs-pic"/>
                     <div className="timeline-text-box">
                         <h2>Tata Consultancy Services</h2>
                         <small>2021-Present</small>
@@ -22,7 +22,7 @@ const Experience = () => {
                 </div>
 
                 <div className="experience-timeline-container right-container">
-                    <img src="/images/changepond.png" />
+                    <img src="/images/changepond.png" alt="cp-pic"/>
                     <div className="timeline-text-box">
                         <h2>Changepond Technologies</h2>
                         <small>2020-2021</small>
@@ -39,7 +39,7 @@ const Experience = () => {
                 </div>
 
                 <div className="experience-timeline-container left-container">
-                    <img src="/images/infoview.png" />
+                    <img src="/images/infoview.png" alt="ivtl-pic"/>
                     <div className="timeline-text-box">
                         <h2>Infoview Technologies</h2>
                         <small>2018-2020</small>
