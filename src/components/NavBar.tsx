@@ -51,7 +51,7 @@ function Header() {
             </button>
           </li>
           <li>
-            <a href="#" className="portfolio-nav-name">B</a>
+            <a href="#about" className="portfolio-nav-name">B</a>
           </li>
           <li>
             <a href="#about" onClick={handleSideBarClose}>
