@@ -1,3 +1,7 @@
+.experience-section {
+    width: 85vw;
+}
+
 .experience-timeline {
     position: relative;
     max-width: 1200px;
@@ -137,6 +141,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    .experience-section {
+        width: 100vw;
+    }
+
     .experience-timeline {
         margin: 50px auto;
     }
