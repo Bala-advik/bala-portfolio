@@ -1,4 +1,4 @@
-### `npm start`
+### Portfolio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/user-attachments/assets/2c6f8b12-a6e7-4286-a65a-b134d7a2648c)
+
