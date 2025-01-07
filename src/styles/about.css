@@ -21,12 +21,12 @@
   line-height: 1.75rem;
 }
 
-button {
+.download-resume-button {
   font-size: 1rem;
   padding: 0.8em 2em;
   background-color: var(--primary-color);
   border: 3px solid aliceblue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 1em;
   color: #fff;
   box-shadow: -5px 5px 0px 0px aliceblue;
@@ -34,7 +34,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.download-resume-button:hover {
   transform: translate(5px, -5px);
 }
 
@@ -88,7 +88,7 @@ button:hover {
     position: relative;
     margin-bottom: 2rem;
   }
-  
+
   .rounded-glow {
     border-radius: 50%;
     border: 1px solid white;
