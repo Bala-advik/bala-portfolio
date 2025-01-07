@@ -21,6 +21,23 @@
   line-height: 1.75rem;
 }
 
+button {
+  font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: var(--primary-color);
+  border: 3px solid aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1em;
+  color: #fff;
+  box-shadow: -5px 5px 0px 0px aliceblue;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(5px, -5px);
+}
+
 .portfolio-image::after {
   border-bottom: 20px solid red;
 }

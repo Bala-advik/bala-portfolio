@@ -2,6 +2,9 @@ import * as React from "react";
 import "../styles/about.css";
 
 const About: React.FC = () => {
+  const handleResumeDownload = () => {
+    console.log("Download will be Started");
+  };
   return (
     <section id="portfolio" className="portfolio-section">
       <div className="portfolio-container">
@@ -18,6 +21,14 @@ const About: React.FC = () => {
           <p>
             I build accessible, pixel-perfect digital experiences for the web.
           </p>
+          <a href={process.env.PUBLIC_URL+"/Resume.pdf"} download="Balamurugan Resume 2025" target='_blank'>
+          <button
+            className="download-resume-button"
+            onClick={handleResumeDownload}
+          >
+            Download Resume
+          </button>
+          </a>
         </div>
         <div className="portfolio-image">
           <img
